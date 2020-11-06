@@ -21,5 +21,5 @@ Will need to obtain higher capacity SD card than what came in the kit (16GB).
 Install and config OpenCV (Very arduous and long process)
 Install and config Security Camera Code from HackerShackOfficial
 
-    Install and config OpenCV obtained from https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html
-    Security Camera Code Obtained from https://github.com/HackerShackOfficial/Smart-Security-Camera
+   Install and config OpenCV obtained from https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html
+   Security Camera Code Obtained from https://github.com/HackerShackOfficial/Smart-Security-Camera
