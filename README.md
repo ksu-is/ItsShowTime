@@ -5,17 +5,20 @@ Purchased a Raspberry Pi 4B 4GB and Raspberry Pi Camera V2 Will aseemble it and 
 
 Next step turn it into a security camera Perhaps add wifi enabled IoT motion sensor to trigger camera
 
-##Next_2## 10/30/20 Intitial setup, physcial layout ##[completed] ##
+# Intitial setup, physcial layout (Complete)
 
-##Next_3## SEtup RaspPi 4B 4GB
+# Setup RaspPi 4B 4GB (Complete)
 
-4:  Initialize RaspPi
+#  Initialize RaspPi (Complete)
+    Initial attempt at running main.py presented with Syntax errors.( )
+    Will have to review video and READMESecurityCamera. ( )
+    Some keys will have to be changed for my credentials and email  ( )
+    
+# Install RaspPi camera V2 module
 
-5: Install RaspPi camera V2 module
+# Install and config OpenCV
 
-6: Install and config OpenCV
-
-7: Install and config Security Camera Code from HackerShackOfficial
+# Install and config Security Camera Code from HackerShackOfficial
 
   Install and config OpenCV
     Security Camera Code Obtained from https://github.com/HackerShackOfficial/Smart-Security-Camera
