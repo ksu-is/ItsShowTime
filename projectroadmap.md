@@ -11,7 +11,10 @@ Create whatever code is needed via the tutorials ( )
 Install camera ( )
 
 Create whatever code is needed via the tutorials ( )
-    Obtained from https://github.com/HackerShackOfficial/Smart-Security-Camera
+
+    Install and config OpenCV
+    Security Camera Code Obtained from https://github.com/HackerShackOfficial/Smart-Security-Camera
+
 Evalaute Next Steps for Goals and any troubleshooting for Next Sprint ( )
 
 Update README.MD with all instructions and steps ( )
