@@ -11,7 +11,7 @@ Perhaps add wifi enabled IoT motion sensor to trigger camera
 ##Next_2##
 10/30/20
 Intitial setup, physcial layout 
-##[completed] ##
+##(COMPLETE) ##
 
 ##Next_3##
 
