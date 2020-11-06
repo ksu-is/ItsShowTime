@@ -7,4 +7,15 @@ Next step turn it into a security camera Perhaps add wifi enabled IoT motion sen
 
 ##Next_2## 10/30/20 Intitial setup, physcial layout ##[completed] ##
 
-##Next_3##
+##Next_3## SEtup RaspPi 4B 4GB
+
+4:  Initialize RaspPi
+
+5: Install RaspPi camera V2 module
+
+6: Install and config OpenCV
+
+7: Install and config Security Camera Code from HackerShackOfficial
+
+  Install and config OpenCV
+    Security Camera Code Obtained from https://github.com/HackerShackOfficial/Smart-Security-Camera
