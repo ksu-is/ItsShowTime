@@ -6,9 +6,9 @@ Purchased a Raspberry Pi 4B 4GB and Raspberry Pi Camera V2
 Will aseemble it and get it running (COMPLETE)
 
 Next step turn it into a security camera
-##https://www.raspberrypi.org/documentation/usage/camera/##
+#https://www.raspberrypi.org/documentation/usage/camera/
 
-##https://www.youtube.com/watch?v=qk1IVs5B1GI##
+#https://www.youtube.com/watch?v=qk1IVs5B1GI
 
 
 ##Next_2##
