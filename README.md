@@ -34,3 +34,6 @@ Check to see capacity limits for rasp pi for SD size.
 MAke a copy of current clean SD OS install.
 Install OpenCV or proceed with alternative when found
 
+
+Found an alternative that may be simpler to install and operate.
+https://www.youtube.com/watch?v=NbFruaDUKB0&list=WL&index=1&t=509s
