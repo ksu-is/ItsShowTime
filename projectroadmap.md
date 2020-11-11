@@ -21,7 +21,7 @@ Update README.MD with all instructions and steps ( )
 
 Commit all code that has been created to GITHUB REPO ( )
 
-##Sprint 2##:
+    #Sprint 2
 
 Evaluation on entire install seems overly long and outside of my immediate skill set, but is stil an option
 
