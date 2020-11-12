@@ -1,46 +1,112 @@
-ItsShowTime
-##Making a Rasp Pi Into Security Camera## ##10/27/20 7:10PM (MicroCenter)##
+# Smart-Security-Camera
+IoT Raspberry Pi security camera running open-cv for object detection. The camera will send an email with an image of any objects it detects. It also runs a server that provides a live video stream over the internet.
 
-Purchased a Raspberry Pi 4B 4GB and Raspberry Pi Camera V2 Will aseemble it and get it running
+[Watch the original video here](https://youtu.be/Y2QFu-tTvTI)
 
-Next step turn it into a security camera Perhaps add wifi enabled IoT motion sensor to trigger camera
+## Setup
 
-Intitial setup, physcial layout (Complete)
+This project uses a Raspberry Pi Camera to stream video. Before running the code, make sure to configure the raspberry pi camera on your device.
 
-Setup RaspPi 4B 4GB (Complete)
+Open the terminal and run
 
-Initialize RaspPi (Complete)
-    Initial attempt at running main.py presented with Syntax errors.( )
-    Will have to review video and READMESecurityCamera. ( )
-    Some keys will have to be changed for my credentials and email  ( )
-    
-Install RaspPi camera V2 module
+```
+sudo raspi-config
+```
 
-Will need to obtain higher capacity SD card than what came in the kit (16GB).
+Select `Interface Options`, then `Pi Camera` and toggle on. Press `Finish` and exit.
 
-Install and config OpenCV (Very arduous and long process)
-Install and config Security Camera Code from HackerShackOfficial
+You can verify that the camera works by running
 
-   Install and config OpenCV obtained from https://qengineering.eu/install-opencv-4.4-on-raspberry-pi-4.html
-   Security Camera Code Obtained from https://github.com/HackerShackOfficial/Smart-Security-Camera
+```
+raspistill -o image.jpg
+```
+which will save a image from the camera in your current directory. You can open up the file inspector and view the image.
 
-Open CV will take about 2-4 hrs to compile and install.  Most of the setup is new to me because of never having worked with a rasp pi before or linux/unix.  It may be worth looking for an alternative to the opencv issue if there is one.  Maybe a simpler set of code than previously found.  
-This site has a full mostly update set of instructions to install opencv
-https://www.pyimagesearch.com/2019/09/16/install-opencv-4-on-raspberry-pi-4-and-raspbian-buster/
+## Installing Dependencies
 
-Make sure to obtain a much larger SD card than came with the rasp pi 4b kit.  came with a 16 GB, recommended is 32.
-Check to see capacity limits for rasp pi for SD size.
+This project uses openCV to detect objects in the video feed. You can install openCV by using the following [tutorial](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/). I used the Python 2.7 version of the tutorial.
 
-MAke a copy of current clean SD OS install.
-Install OpenCV or proceed with alternative when found
+The installation took almost 8 hours (!!) on my Raspberry Pi Zero, but it would be considerably faster on a more powerful board like the Raspberry Pi 3.
 
+The tutorial will prompt you to create a virtual environment. Make sure you are using the virtual environment by typing the following commands
 
-Found an alternative that may be simpler to install and operate.
-https://www.youtube.com/watch?v=NbFruaDUKB0&list=WL&index=1&t=509s
+```bash
+source ~/.profile
+workon cv
+```
 
-Giant constant issues, support for raspi 4b is few and far between for updates to most of these OS's
-TRying to see what will or will not work
+Next, navigate to the repository directory
 
-Havent found anything that'll even run porperly
-Good news is I have an expensive paperweight for future projects
+```
+cd Smart-Security-Camera
+```
 
+and install the dependencies for the project
+
+```
+pip install -r requirements.txt
+```
+
+*Note: If you're running python3, you'll have to change the import statements at the top of the mail.py file*
+
+```
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.image import MIMEImage
+```
+*and change your print statements from quotes to parenthesis*
+
+```
+print "" => print()
+```
+
+## Customization
+
+To get emails when objects are detected, you'll need to make a couple modifications to the `mail.py` file.
+
+Open `mail.py` with vim `vim mail.py`, then press `i` to edit. Scroll down to the following section
+
+```
+# Email you want to send the update from (only works with gmail)
+fromEmail = 'myemail@gmail.com'
+fromEmailPassword = 'password1234'
+
+# Email you want to send the update to
+toEmail = 'anotheremail@gmail.com'
+```
+and replace with your own email/credentials. The `mail.py` file logs into a gmail SMTP server and sends an email with an image of the object detected by the security camera. 
+
+Press `esc` then `ZZ` to save and exit.
+
+You can also modify the `main.py` file to change some other properties.
+
+```
+email_update_interval = 600 # sends an email only once in this time interval
+video_camera = VideoCamera(flip=True) # creates a camera object, flip vertically
+object_classifier = cv2.CascadeClassifier("models/fullbody_recognition_model.xml") # an opencv classifier
+```
+Notably, you can use a different object detector by changing the path `"models/fullbody_recognition_model.xml"` in `object_classifier = cv2.CascadeClassifier("models/fullbody_recognition_model.xml")`.
+
+to a new model in the models directory.
+
+```
+facial_recognition_model.xml
+fullbody_recognition_model.xml
+upperbody_recognition_model.xml
+```
+
+## Running the Program
+
+Run the program
+
+```
+python main.py
+```
+
+You can view a live stream by visiting the ip address of your pi in a browser on the same network. You can find the ip address of your Raspberry Pi by typing `ifconfig` in the terminal and looking for the `inet` address. 
+
+Visit `<raspberrypi_ip>:5000` in your browser to view the stream.
+
+Note: To view the live stream on a different network than your Raspberry Pi, you can use [ngrok](https://ngrok.com/) to expose a local tunnel. Once downloaded, run ngrok with `./ngrok http 5000` and visit one of the generated links in your browser.
+
+Note: The video stream will not start automatically on startup. To start the video stream automatically, you will need to run the program  from your `/etc/rc.local` file see this [video](https://youtu.be/51dg2MsYHns?t=7m4s) for more information about how to configure that.
