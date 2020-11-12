@@ -37,3 +37,10 @@ Install OpenCV or proceed with alternative when found
 
 Found an alternative that may be simpler to install and operate.
 https://www.youtube.com/watch?v=NbFruaDUKB0&list=WL&index=1&t=509s
+
+Giant constant issues, support for raspi 4b is few and far between for updates to most of these OS's
+TRying to see what will or will not work
+
+Havent found anything that'll even run porperly
+Good news is I have an expensive paperweight for future projects
+
