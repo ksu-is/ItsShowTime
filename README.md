@@ -21,3 +21,5 @@ Need to understand how to use the wireless network
 It is currently hardwired through an ethernet cable, it is inconveniently located at the moment.
 
 Refer to this site for instructions and image for OS https://dronebotworkshop.com/motioneyeos-raspberry-pi/
+
+https://github.com/ccrisan/motioneyeos/wiki/Supported-Devices for Supported Devices
