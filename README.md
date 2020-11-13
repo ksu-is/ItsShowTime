@@ -14,6 +14,8 @@ MotioneyeOS sems to work so far
 
 Need to install camera and follow video
 
+https://www.youtube.com/watch?v=qk1IVs5B1GI
+
 Seem to only need an hr of total setup and configuration
 
 Need to understand how to use the wireless network
