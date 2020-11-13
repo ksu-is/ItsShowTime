@@ -2,6 +2,12 @@ Copied a different readme over mine.  It overwrote it, naturally.  History shows
 
 For now, have flashed motioneyeos onto 64GB microSDXC card.  Initial install to RaspPi 4B seems to be successful. Need to physcially install camera to see if it will function
 
+Use this tutuorial or the book that came with the kit for camera installation
+https://www.youtube.com/watch?v=qk1IVs5B1GI
+
+Unfortunately, it is an ugly physcial setup for the camera because the case is not designed for it
+Have to take the top of the case off to operate the camera
+
 Otherwise, MotioeyeOS is easily connected through a separate computer and browser.  
 
 Starting over with new README, logs aren't accurate but commit history may help fill in the gaps if needed.
