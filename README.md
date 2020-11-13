@@ -12,7 +12,7 @@ RaspPi4b physically setup and operating fine
 
 MotioneyeOS sems to work so far
 
-Need to install camera and play follow video
+Need to install camera and follow video
 
 Seem to only need an hr of total setup and configuration
 
