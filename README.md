@@ -12,3 +12,5 @@ Need to install camera and play follow video
 Seem to only need an hr of total setup and configuration
 Need to understand how to use the wireless network
 It is currently hardwired through an ethernet cable, it is inconveniently located at the moment.
+
+Refer to this site for instructions and image for OS https://dronebotworkshop.com/motioneyeos-raspberry-pi/
