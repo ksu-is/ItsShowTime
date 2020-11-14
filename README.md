@@ -31,3 +31,14 @@ It is currently hardwired through an ethernet cable, it is inconveniently locate
 Refer to this site for instructions and image for OS https://dronebotworkshop.com/motioneyeos-raspberry-pi/
 
 https://github.com/ccrisan/motioneyeos/wiki/Supported-Devices for Supported Devices
+
+Camera works fine and streams through local internet to a local IP.  
+
+Next step is to config for motion capture and video of capture event?
+
+Storage space on microSD shold be fine for tests. 64GB
+
+Clean up README and Roadmap and prepare for PPT and presentation.
+
+Figure out how to record screens and audio input for presentation.
+
