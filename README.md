@@ -36,7 +36,7 @@ Camera works fine and streams through local internet to a local IP.
 
 Next step is to config for motion capture and video of capture event?
 
-Storage space on microSD shold be fine for tests. 64GB
+Storage space on microSD should be fine for tests. 64GB
 
 Clean up README and Roadmap and prepare for PPT and presentation.
 
