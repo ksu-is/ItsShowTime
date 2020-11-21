@@ -34,7 +34,7 @@ Wireless config doesn't seem to work yet, but wired is fine for now.
 
 Camera works fine and streams through local internet to a local IP.  
 
-MotionEYEOS img file is too large to copy to main branch, but forking source will be huge amount of not relevant files.
+MotionEYEOS img file is too large to copy to main branch, but forking source only goes to ksu-is/motioneyeos or to bdobson5/ItsShowTime.  The Wiki from source contains the various updates for newer gens of rasp pi. https://github.com/ccrisan/motioneyeos/wiki/Supported-Devices
 
 Next step is to config for motion capture and video of capture event?
 
