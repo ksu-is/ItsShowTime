@@ -12,8 +12,6 @@ Otherwise, MotioeyeOS is easily connected through a separate computer and browse
 
 Starting over with new README, logs aren't accurate but commit history may help fill in the gaps if needed.
 
-Haven't really done anything of value yet.
-
 RaspPi4b physically setup and operating fine
 
 MotioneyeOS sems to work so far
@@ -32,7 +30,11 @@ Refer to this site for instructions and image for OS https://dronebotworkshop.co
 
 https://github.com/ccrisan/motioneyeos/wiki/Supported-Devices for Supported Devices
 
+Wireless config doesn't seem to work yet, but wired is fine for now.
+
 Camera works fine and streams through local internet to a local IP.  
+
+MotionEYEOS img file is too large to copy to main branch, but forking source will be huge amount of not relevant files.
 
 Next step is to config for motion capture and video of capture event?
 
