@@ -36,6 +36,8 @@ Camera works fine and streams through local internet to a local IP.
 
 MotionEYEOS img file is too large to copy to main branch, but forking source only goes to ksu-is/motioneyeos or to bdobson5/ItsShowTime.  The Wiki from source contains the various updates for newer gens of rasp pi. https://github.com/ccrisan/motioneyeos/wiki/Supported-Devices
 
+Turns out I can just mimic the Wiki on the source repository and add a link there.
+
 Next step is to config for motion capture and video of capture event?
 
 Storage space on microSD should be fine for tests. 64GB
