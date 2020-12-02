@@ -52,29 +52,29 @@ Clean up README and Roadmap and prepare for PPT and presentation.
 Figure out how to record screens and audio input for presentation.
 
 Assembly and setup of Raspberry Pi 4B
-2:  Power supply:  At least 3.0 amps for Raspberry Pi 4
-3:  A microSD card: Your Raspberry Pi needs an SD card to store all its files and the Raspbian operating system.
-4:  You need a microSD card with a capacity of at least 8 GB.
-"5:  A keyboard and a mouse
-To start using your Raspberry Pi, you need a USB keyboard and a USB mouse.
-Once you’ve set your Pi up, you can use a Bluetooth keyboard and mouse, but you’ll need a USB keyboard and mouse for the first setup."
-"6:  A TV or computer screen
-To view the Raspbian desktop environment, you need a screen, and a cable to link the screen and the Pi. The screen can be a TV or a computer monitor. If the screen has built-in speakers, the Pi is able to use these to play sound."
-"7:  HDMI
-The Raspberry Pi has a HDMI output port that is compatible with the HDMI port of most modern TVs and computer monitors. Many computer monitors may also have DVI or VGA ports.
-Raspberry Pi 4 has two micro HDMI ports, allowing you to connect two separate monitors. "
-8:  Set up MicroSD Card
-https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2
-9:  Connect Your Pi
-https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/3
-10:  Start It Up
-https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/4
-11:  Finish Setup
-https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/5
+  Power supply:  At least 3.0 amps for Raspberry Pi 4
+  A microSD card: Your Raspberry Pi needs an SD card to store all its files and the Raspbian operating system.
+  You need a microSD card with a capacity of at least 8 GB.
+  A keyboard and a mouse
+  To start using your Raspberry Pi, you need a USB keyboard and a USB mouse.
+  Once you’ve set your Pi up, you can use a Bluetooth keyboard and mouse, but you’ll need a USB keyboard and mouse for the first setup."
+  A TV or computer screen
+  To view the Raspbian desktop environment, you need a screen, and a cable to link the screen and the Pi. The screen can be a TV or a computer monitor. If the screen has built-   in speakers, the Pi is able to use these to play sound."
+  HDMI
+  The Raspberry Pi has a HDMI output port that is compatible with the HDMI port of most modern TVs and computer monitors. Many computer monitors may also have DVI or VGA ports.
+  Raspberry Pi 4 has two micro HDMI ports, allowing you to connect two separate monitors. "
+  Set up MicroSD Card
+  https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2
+  Connect Your Pi
+  https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/3
+  Start It Up
+  https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/4
+  Finish Setup
+  https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/5
 
-12: Obtain and install OS based on tutorials
-Raspberry Pi Remote Camera with motionEyeOS - Build a Surveillance System - YouTube
-https://www.youtube.com/watch?v=NbFruaDUKB0&list=WL&index=1&t=614s
+  Obtain and install OS based on tutorials
+  Raspberry Pi Remote Camera with motionEyeOS - Build a Surveillance System - YouTube
+  https://www.youtube.com/watch?v=NbFruaDUKB0&list=WL&index=1&t=614s
 
 
 
