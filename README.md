@@ -20,6 +20,45 @@ Need to install camera and follow video
 
 https://www.youtube.com/watch?v=qk1IVs5B1GI
 
+For Raspbian
+
+Install camera cable
+
+Test Camera using Raspbian through Terminal
+
+#raspistill -rot 180 -o test.jpg# BEcause camera cannot be mounted right side up at the moment 
+
+Install and run picamera from Thonny IDE within Raspbian OS
+
+#from picamera import PiCamera#
+#from time import sleep#
+#camera = PiCamera()#
+#camera.rotation = 180#
+then
+
+#camera.start_preview()#
+#sleep(5)#
+#camera.capture('/home/pi/Desktop/image.jpg')
+#camera.stop_preview()#
+
+Click Run
+
+This will allows to view and capture still images to your rasp pi
+
+For video use:
+
+#from picamera import PiCamera#
+#from time import sleep#
+#camera = PiCamera()#
+#camera.rotation = 180#
+then
+
+#camera.start_preview()#
+#camera.start_recording('/home/pi/Desktop/video.h264')#
+#sleep(10)#
+#camera.stop_recording()#
+#camera.stop_preview()#
+
 Seem to only need an hr of total setup and configuration
 
 Need to understand how to use the wireless network
