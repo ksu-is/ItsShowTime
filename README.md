@@ -31,32 +31,60 @@ Test Camera using Raspbian through Terminal
 Install and run picamera from Thonny IDE within Raspbian OS
 
 #from picamera import PiCamera#
+
 #from time import sleep#
+
 #camera = PiCamera()#
+
 #camera.rotation = 180#
+
 then
 
+
 #camera.start_preview()#
+
 #sleep(5)#
+
 #camera.capture('/home/pi/Desktop/image.jpg')
+
 #camera.stop_preview()#
 
 Click Run
 
 This will allows to view and capture still images to your rasp pi
 
+If program does not run correctly and capture image
+
+Hold down ctrl+alt+t which will open up a terminal that has focus, although hidden behind the preview.
+
+Then blindly type
+
+pkill python3
+
+Enter
+
 For video use:
 
+
 #from picamera import PiCamera#
+
 #from time import sleep#
+
 #camera = PiCamera()#
+
 #camera.rotation = 180#
+
 then
 
+
 #camera.start_preview()#
+
 #camera.start_recording('/home/pi/Desktop/video.h264')#
+
 #sleep(10)#
+
 #camera.stop_recording()#
+
 #camera.stop_preview()#
 
 Seem to only need an hr of total setup and configuration
