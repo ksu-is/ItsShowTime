@@ -106,6 +106,7 @@ MotionEYEOS img file is too large to copy to main branch, but forking source onl
 
 #Try the intitial route of code and openCV installation?  GottA week, sounds like fun.
 
+https://github.com/ksu-is/opencv
 
 
 Turns out I can just mimic the Wiki on the source repository and add a link there.
