@@ -15,9 +15,9 @@ Obtain image file of MotionEyeOS (COMPLETE)
 
 Evalaute Next Steps for Goals and any troubleshooting for Next Sprint (COMPLETE)
 
-Update README.MD with all instructions and steps ( )
+Update README.MD with all instructions and steps (COMPLETE)
 
-Commit all code that has been created to GITHUB REPO ( )
+Commit all code that has been created to GITHUB REPO (COMPLETE)
 
     Sprint 2:
 
@@ -29,14 +29,16 @@ Obtained higher speed larger capacity microSD card, 64GB. (COMPLETE)
 
 Install camera and motionEyeOS and have a functioning security camera by end of Sprint 2.(COMPLETE)
 
-Adjust as needed (  )
+Adjust as needed (COMPLETE)
 
-   11/14 
-   Camera works fine and streams through local internet to a local IP.  
+Camera works fine and streams through local internet to a local IP.  
 
-Next step is to config for motion capture and video of capture event? ( )
+Next step is to config for motion capture and video of capture event? (COMPLETE)
 
    Storage space on microSD should be fine for tests. 64GB
+
+    Sprint 3:
+Splash Screen (COMPLETE)
 
 Clean up README and Roadmap and prepare for PPT and presentation. ( )
 
