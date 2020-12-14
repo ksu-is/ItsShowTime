@@ -40,7 +40,12 @@ Next step is to config for motion capture and video of capture event? (COMPLETE)
     Sprint 3:
 Splash Screen (COMPLETE)
 
-Clean up README and Roadmap and prepare for PPT and presentation. ( )
+Clean up README and Roadmap and prepare for PPT and presentation. (COMPLETE)
 
-Figure out how to record screens and audio input for presentation. ( )
+Figure out how to record screens and audio input for presentation. (COMPLETE)
+
+Record meeting and turn in project. Link to presentation video below:
+
+https://web.microsoftstream.com/video/18c9f475-577a-4d7c-bf30-3e652614eb15
+
 
