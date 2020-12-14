@@ -131,7 +131,9 @@ ksu-is/motioneyeos or to bdobson5/ItsShowTime.  The Wiki from source contains th
 
 https://github.com/ccrisan/motioneyeos/wiki
 
-Build openCV?
+Build openCV as a precursor for a more advanced OS prodivded by
+
+https://github.com/ksu-is/ItsShowTime/blob/main/SecCamREADME.md
 
 https://github.com/ksu-is/opencv
 
